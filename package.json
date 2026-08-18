@@ -1,0 +1,14 @@
+{
+  "name": "grey-box-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Companion code for the Autonoma blog post 'Why Grey Box Testing Was Never a Compromise'.",
+  "license": "MIT",
+  "scripts": {
+    "verify": "node verify.js",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
